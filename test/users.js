@@ -7,7 +7,8 @@ describe('Users', function() {
   });
   describe('#getSingle()', function() {
     it('should return a user if user exists', function() {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+      const user = undefined;
+      assert.equal(user, { id: "1", name: "Justin" })
     });
     it('should throw a ResourceNotFound error if users doesn\'t exist', function() {
       assert.equal([1, 2, 3].indexOf(4), -1);
