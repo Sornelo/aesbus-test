@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('/images/db.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 100vh;
+}
+
+.content {
+  text-align: right;
+  position: absolute;
+  bottom: 220px;
+  right: 300px;
+}
+
+a {
+  color: #00B7FF;
+}
